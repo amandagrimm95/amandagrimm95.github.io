@@ -17,7 +17,7 @@ export function HeaderCanvas (props: any) {
             this.y = Math.random() * (window.innerHeight + 100);
             this.radius = (Math.random() * 10) + 5;
             this.dx = 0;
-            this.dy = (Math.random() * 2) + 0.25;
+            this.dy = (Math.random() * 0.5) + 0.25;
             this.color = COLORS[Math.floor(Math.random() * COLORS.length)];
         
             this.draw = function() {
@@ -37,7 +37,7 @@ export function HeaderCanvas (props: any) {
                 this.x += this.dx;
                 this.y += this.dy;
 
-                if (this.y > window.innerHeight + 200) {
+                if (this.y > window.innerHeight + 100) {
                     this.y = -50;
                 }
         

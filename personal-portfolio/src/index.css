@@ -11,21 +11,41 @@ code {
     monospace;
 }
 
-.sectionBorder {
+#sectionBorder1 {
   width: 100vw;
-  height: 300px;
+  height: 175px;
   position: relative;
-  top: -200px;
+  top: -100px;
   z-index: 10;
 }
-.reverseSectionBorder {
+
+#sectionBorder2 {
   width: 100vw;
-  height: 300px;
+  height: 175px;
   position: relative;
-  top: -300px;
+  top: -50px;
   z-index: 10;
   transform: rotate(180deg);
 }
+
+#sectionBorder3 {
+  width: 100vw;
+  height: 175px;
+  position: relative;
+  z-index: 10;
+}
+
+#skills {
+  position: relative;
+  top: -300px;
+} 
+
+#portfolio, #contact {
+  position: relative;
+  top: -250px;
+}
+
+
 
 
 

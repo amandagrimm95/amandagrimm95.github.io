@@ -1,9 +1,10 @@
 .navBar {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     text-align: right;
     color: rgb(3, 3, 31);
+    z-index: 15;
 }
 
 .navBar > img {
@@ -11,7 +12,7 @@
     width: 75px;
     padding: 30px;
     position: relative;
-    z-index: 10;
+    z-index: 15;
 }
 
 #navList {
@@ -39,10 +40,6 @@
 }
 
 .navBar li:hover {
-    /* animation-name: wordBounce;
-    animation-timing-function: ease-out;
-    animation-duration: 0.5s;
-    transform-origin: center 5%; */
     color: gray;
     transform: scale(110%);
     transition: all 0.5s;

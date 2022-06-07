@@ -2,8 +2,7 @@
     width: 100vw;
     color: rgb(3, 3, 31);;
     margin: 0; 
-    position: relative;
-    top: -300px;
+    /* margin-top: -100px; */
 }
 
 h2 {
@@ -18,7 +17,8 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 80vw;
-    margin: 50px auto;
+    margin: 100px auto;
+    
 }
 
 h3 {
@@ -31,4 +31,51 @@ h4 {
 
 li {
     font-size: 20px;
+}
+
+.portfolioImgs {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.layoutImage {
+    width: 40vw;
+    padding: 50px;
+    margin: auto auto;
+}
+
+.websiteButton {
+    background-color: #94ebb8;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    position: absolute;
+    right: 150px;
+    text-decoration: none;
+    color: rgb(3, 3, 31);
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    transition: all 0.25s;
+}
+
+.websiteButton:hover {
+    background-color: rgb(3, 3, 31);
+    color: #94ebb8;
+    transition: all 0.25s;
+    animation-name: skillBounce;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.75s;
+}
+
+.websiteButton p {
+    margin: auto 0;
+}
+
+@keyframes skillBounce {
+    0% { transform: scale(100%) }
+    25% { transform: scale(105%) }
+    50% { transform: scale(95%) }
+    75% { transform: scale(100%) }
 }

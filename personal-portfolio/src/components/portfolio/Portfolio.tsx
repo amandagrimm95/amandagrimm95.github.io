@@ -7,7 +7,7 @@ export function Portfolio () {
 
     function renderPortfolioItems() {
         return portfolioInfo.map(x => {
-            return <PortfolioItem item={x}/>
+            return <PortfolioItem item={x} key={x.name}/>
         })
     }
 

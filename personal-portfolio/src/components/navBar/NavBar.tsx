@@ -3,7 +3,7 @@ import './navBar.css';
 
 
 
-export function NavBar () {
+export function NavBar (props) {
 
     useEffect(() => {
         document.addEventListener('mousedown', handleClickOutside);
@@ -15,7 +15,7 @@ export function NavBar () {
     const [menuVis, setMenuVis] = useState(false);
 
     function handleClickOutside(e) {
-        if (e.target.id !== 'navOptions' && e.target.id !== 'menuToggle' && menuVis) {
+        if (e.target.className !== 'header' && e.target.className !== 'skills' && e.target.className !== 'portfolio' && e.target.className !== 'contact' && e.target.id !== 'menuToggle' && menuVis) {
             toggleMenu()
         }
     }
@@ -24,15 +24,20 @@ export function NavBar () {
         setMenuVis(prev => !prev);
     }
 
+    function navClick(e) {
+        props.navHandler(e.target.className);
+        toggleMenu();
+    }
+
     function renderNavBar() {
         if (!menuVis) return;
         return (
             <div id='navList'>
                 <ul id='navOptions'>
-                    <li>Home</li>
-                    <li>Skills</li>
-                    <li>Portfolio </li>
-                    <li>Contact</li>
+                    <li className="header" onClick={navClick}>Home</li>
+                    <li className="skills" onClick={navClick}>Skills</li>
+                    <li className="portfolio" onClick={navClick}>Portfolio </li>
+                    <li className="contact" onClick={navClick}>Contact</li>
                 </ul>
             </div>
         )
