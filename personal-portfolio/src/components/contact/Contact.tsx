@@ -4,6 +4,7 @@ import { serverURL } from 'config';
 
 export const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
@@ -13,7 +14,7 @@ export const ContactForm = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch(serverURL, {
+    let response = await fetch(`${serverURL}/contact`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -24,6 +25,7 @@ export const ContactForm = () => {
     let result = await response.json();
     alert(result.status);
   };
+
   return (
       <div id='contactSection'>
         <h2>Contact</h2>
