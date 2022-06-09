@@ -24,7 +24,7 @@ export function PortfolioItem (props) {
             <div className='portfolioImgs'>
                 <img src={props.item.image} alt='Site Screen Layouts' className='layoutImage'/>
             </div>
-            <a href={props.item.link} className='websiteButton'><p>Visit Site</p></a>
+            <a href={props.item.link} className='websiteButton' target="_blank" rel="noreferrer"><p>Visit Site</p></a>
         </div>
     )
 }

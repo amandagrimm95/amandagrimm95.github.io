@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './contact.css';
+import './contact-mobile.css';
 import { serverURL } from 'config';
 
 export const ContactForm = () => {

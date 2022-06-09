@@ -1,6 +1,7 @@
 import React from 'react';
 import { HeaderCanvas } from './HeaderCanvas';
 import './header.css';
+import './header-mobile.css';
 
 export function Header() {
 

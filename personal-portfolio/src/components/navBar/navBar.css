@@ -8,9 +8,11 @@
 }
 
 .navBar > img {
-    height: 75px;
-    width: 75px;
-    padding: 30px;
+    height: 8vh;
+    max-height: 75px;
+    width: 8vh;
+    max-width: 75px;
+    padding: 4vh;
     position: relative;
     z-index: 15;
 }
@@ -34,9 +36,9 @@
 }
 
 .navBar li {
-    font-size: 50px;
+    font-size: 5vh;
     list-style-type: none;
-    padding: 5px 53vh 5px 0;
+    padding: 0.75vh 53vh 0.75vh 0;
 }
 
 .navBar li:hover {
@@ -58,4 +60,10 @@
     25% { transform: scale(105%) }
     50% { transform: scale(110%) }
     75% { transform: scale(105%) }
+}
+
+@media screen and (max-width: 700px) {
+    .navBar > img {
+        padding: 0.5vh;
+    }
 }

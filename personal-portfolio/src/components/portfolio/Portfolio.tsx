@@ -2,6 +2,7 @@ import React from "react";
 import { PortfolioItem  } from "./PortfolioItem";
 import { portfolioInfo } from "./portfolioInfo";
 import './portfolio.css';
+import './portfolio-mobile.css';
 
 export function Portfolio () {
 

@@ -1,0 +1,78 @@
+@media screen and (max-width: 1400px) {
+    .contactContainer {
+        width: 90vw;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    #contactSection h2 {
+        font-size: 8vw;
+    }
+
+    label {
+        font-size: 20px;
+        width: 100px;
+    }
+    
+    input {
+        font-size: 20px;
+        border-radius: 5px;
+        margin: 10px;
+        width: 90%;
+    }
+    
+    textarea {
+        font-size: 20px;
+        border-radius: 5px;
+        margin: 10px;
+        width: 90%;
+    }
+
+    button {
+        font-size: 20px;
+        width: 125px;
+        height: 62.5px;
+        border-radius: 62.5px;
+    }
+
+    #headshot {
+        height: 30vw;
+        border-radius: 15vw;
+    }
+
+    .contactInfo p {
+        font-size: 20px;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contactContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #headshot {
+        height: 60vw;
+        border-radius: 60vw;
+        margin: 50px auto 10px auto;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    #contactSection h2 {
+        font-size: 60px;
+    }
+}
+
+

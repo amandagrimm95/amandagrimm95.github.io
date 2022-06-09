@@ -1,5 +1,6 @@
 import React from "react";
 import './skills.css';
+import './skills-mobile.css';
 import { Skill } from './Skill';
 
 export function Skills () {

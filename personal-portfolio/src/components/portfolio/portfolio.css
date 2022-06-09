@@ -5,8 +5,8 @@
     /* margin-top: -100px; */
 }
 
-h2 {
-    font-size: 80px;
+#portfolioSection h2 {
+    font-size: 4.5vw;
     width: 100vw;
     display: block;
     margin-top: 0;
@@ -18,18 +18,17 @@ h2 {
     grid-template-columns: 1fr 1fr;
     width: 80vw;
     margin: 100px auto;
-    
 }
 
-h3 {
+#portfolioSection h3 {
     font-size: 50px;
 }
 
-h4 {
+#portfolioSection h4 {
     font-size: 30px;
 }
 
-li {
+#portfolioSection li {
     font-size: 20px;
 }
 

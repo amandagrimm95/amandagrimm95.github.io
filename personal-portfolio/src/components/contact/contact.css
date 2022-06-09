@@ -1,6 +1,5 @@
 #contactSection {
     width: 100vw;
-    /* height: calc(100vh - 600px); */
     background-color: #00001f;;
     color: #CCFFFF;
     margin: 0;
@@ -9,8 +8,8 @@
     position: relative;
 }
 
-h2 {
-    font-size: 80px;
+#contactSection h2 {
+    font-size: 4.5vw;
     width: 100vw;
     display: block;
     margin-top: 0;
@@ -63,9 +62,6 @@ button {
     border-radius: 62.5px;
     margin: 25px auto;
     display: block;
-    /* position: absolute;
-    bottom: 275px;
-    left: 275px; */
 }
 
 button:hover {
