@@ -31,7 +31,7 @@
     width: 13vw;
     height: 13vw;
     border-radius: 50%;
-    margin: 0 6vw;
+    margin: 2vw 6vw;
     transition: all 0.2s;
     align-items: center;
 }
