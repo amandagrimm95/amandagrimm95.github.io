@@ -18,10 +18,10 @@ export const portfolioInfo: portfolioInfoType[] = [{
     link: 'https://www.grimbarinteractive.com',
     tech: ['TypeScript', 'JavaScript', 'React', 'HTML5/CSS3', 'NodeJS', 'MySQL', 'Mockplus'],
     features: ['Dynamic site', 'Email collection', 'Interactive crowd sourced "create your own adventure" game available for events']
-},{
-    name: 'Nutrition & Fitness Site',
-    image: 'images/FitnessLexx.png',
-    link: 'https://www.fitnesslexx.com',
-    tech: ['Kajabi Website Builder'],
-    features: ['Integration with client Kajabi Course Catalog', 'Email collection', 'Active Blog', 'Member sign-in and library']
+// },{
+//     name: 'Nutrition & Fitness Site',
+//     image: 'images/FitnessLexx.png',
+//     link: 'https://www.fitnesslexx.com',
+//     tech: ['Kajabi Website Builder'],
+//     features: ['Integration with client Kajabi Course Catalog', 'Email collection', 'Active Blog', 'Member sign-in and library']
 }]
