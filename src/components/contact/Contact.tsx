@@ -48,7 +48,7 @@ export const ContactForm = () => {
             </form>
             <div className='contactInfo'>
                 <img src='./images/headshot.jpg' alt='headshot' id='headshot'/>
-                <p>Amanda Grimm</p>
+                <p>Amanda Dunbar</p>
                 <p>amanda@grimbar.dev</p>
             </div>
         </div>

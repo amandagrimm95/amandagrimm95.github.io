@@ -8,7 +8,7 @@ export function Header() {
     return (
         <div id='header'>
             <HeaderCanvas className="headerCanvas"/>
-            <h1>Amanda Grimm<br/>Full-Stack Engineer & Web Developer</h1>
+            <h1>Amanda Dunbar<br/>Full-Stack Engineer & Web Developer</h1>
         </div>    
     )
 }
