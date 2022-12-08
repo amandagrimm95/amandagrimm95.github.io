@@ -8,7 +8,10 @@ export function Header() {
     return (
         <div id='header'>
             <HeaderCanvas className="headerCanvas"/>
-            <h1>Amanda Dunbar<br/>Full-Stack Engineer & Web Developer</h1>
+            <div id='header-textbox'>
+                <h1>Amanda Dunbar</h1>
+                <h1>Full-Stack Engineer & Web Developer</h1>
+            </div>
         </div>    
     )
 }

@@ -6,6 +6,10 @@
 }
 
 @media screen and (max-width: 900px) {
+    #portfolioSection {
+        margin-bottom: 0
+    }
+
     #portfolioSection h2 {
         margin-top: 50px;
     }

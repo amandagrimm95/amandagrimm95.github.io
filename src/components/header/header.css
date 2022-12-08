@@ -4,11 +4,14 @@ canvas {
     margin: 0;
 }
 
-#header h1 {
+#header-textbox {
     position: absolute;
     top: 35%;
     width: 100%;
     text-align: center;
+}
+
+#header h1 {
     font-size: 4.5vw;
     color: rgb(3, 3, 31);
 }

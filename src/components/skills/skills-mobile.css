@@ -6,6 +6,10 @@
 }
 
 @media screen and (max-width: 900px) {
+    #skillsSection {
+        margin-bottom: -25px;
+    }
+
     .skillfalse {
         width: 30vw;
         height: 30vw;
@@ -35,6 +39,6 @@
 
 @media screen and (max-width: 700px) {
     #skillsSection h2 {
-        font-size: 60px;
+        font-size: 50px;
     }
 }
