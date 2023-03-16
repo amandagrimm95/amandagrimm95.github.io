@@ -29,7 +29,7 @@ export const ContactForm = () => {
 
   return (
       <div id='contactSection'>
-        <h2>Contact</h2>
+        <h2 className='section-title'>Contact</h2>
         <div className='contactContainer'>
             <form onSubmit={handleSubmit}>
                 <div>
@@ -52,7 +52,6 @@ export const ContactForm = () => {
                 <p>amanda@grimbar.dev</p>
             </div>
         </div>
-        
       </div>
     
   );

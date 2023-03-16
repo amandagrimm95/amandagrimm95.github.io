@@ -1,6 +1,6 @@
 #skillsSection {
     width: 100vw;
-    background-color: #00001f;
+    background-color: #00002f;
     color: #CCFFFF;
     margin: 0;
     margin-top: -150px;
@@ -57,6 +57,7 @@
 }
 
 .skillfalse h3 {
+    font-family: "Consolas";
     display: none;
 }
 
@@ -67,8 +68,9 @@
 }
 
 .skilltrue h3 {
-    font-size: 2.4vw;
-    margin-top: -2.5vw;
+    font-family: "Consolas";
+    font-size: 2vw;
+    margin-top: -2vw;
 }
 
 @keyframes skillBounce {

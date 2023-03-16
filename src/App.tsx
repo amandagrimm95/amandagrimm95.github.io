@@ -22,6 +22,9 @@ export function App() {
       <img id='sectionBorder3' src='./images/sectionBorder.png' alt='Section Border'/>
       <div id='contact' />
       <ContactForm />
+      <div id='references'>
+        <p>Skills icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+      </div>
     </div>
   );
 }

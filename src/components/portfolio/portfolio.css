@@ -1,6 +1,6 @@
 #portfolioSection {
     width: 100vw;
-    color: rgb(3, 3, 31);
+    color: #00002f;
     margin: -50px 0px;
 }
 
@@ -16,19 +16,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 80vw;
-    margin: 100px auto;
+    margin: 0 auto 100px auto;
 }
 
 #portfolioSection h3 {
+    font-weight: 500;
     font-size: 50px;
+    width: 80vw;
+    margin: 0 auto;
 }
 
 #portfolioSection h4 {
+    font-weight: 500;
     font-size: 30px;
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 #portfolioSection li {
     font-size: 20px;
+    font-family: "Consolas";
 }
 
 .portfolioImgs {
@@ -51,15 +58,16 @@
     position: absolute;
     right: 150px;
     text-decoration: none;
-    color: rgb(3, 3, 31);
+    color: #00002f;
     font-size: 30px;
     text-align: center;
     display: flex;
+    justify-content: center;
     transition: all 0.25s;
 }
 
 .websiteButton:hover {
-    background-color: rgb(3, 3, 31);
+    background-color: #00002f;
     color: #94ebb8;
     transition: all 0.25s;
     animation-name: skillBounce;
@@ -68,6 +76,8 @@
 }
 
 .websiteButton p {
+    font-family: "Consolas";
+    width: 75%;
     margin: auto 0;
 }
 

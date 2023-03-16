@@ -6,12 +6,19 @@ canvas {
 
 #header-textbox {
     position: absolute;
-    top: 35%;
+    top: 30%;
     width: 100%;
     text-align: center;
 }
 
 #header h1 {
     font-size: 4.5vw;
-    color: rgb(3, 3, 31);
+    color: #00002f;
+    font-weight: 500;
+    margin: 20px;
+    line-height: 1;
+}
+
+#header .section-title {
+    font-size: 6vw !important;
 }
