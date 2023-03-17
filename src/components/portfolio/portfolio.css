@@ -13,8 +13,9 @@
 }
 
 .portfolioItem {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: start;
+    align-items: start;
     width: 80vw;
     margin: 0 auto 100px auto;
 }
@@ -27,21 +28,22 @@
 }
 
 #portfolioSection h4 {
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 35px;
     margin-bottom: 10px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 #portfolioSection li {
     font-size: 20px;
-    font-family: "Consolas";
+    /* font-family: "Consolas"; */
 }
 
 .portfolioImgs {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    align-items: center;
+    /* padding-top: 50px; */
 }
 
 .layoutImage {
