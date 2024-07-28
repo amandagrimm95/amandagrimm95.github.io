@@ -1,7 +1,7 @@
 .navBar {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 0px;
+    right: 0px;
     text-align: right;
     color: rgb(3, 3, 31);
     z-index: 15;
@@ -9,9 +9,9 @@
 
 .navBar > img {
     height: 8vh;
-    max-height: 75px;
+    max-height: 50px;
     width: 8vh;
-    max-width: 75px;
+    max-width: 50px;
     padding: 4vh;
     position: relative;
     z-index: 15;
@@ -20,11 +20,11 @@
 #navList {
     background-color: #94ebb8;
     border-radius: 50vh;
-    height: 100vh;
-    width: 100vh;
+    height: 75vh;
+    width: 75vh;
     position: absolute;
-    right: -50vh;
-    top: -50vh;
+    right: -37.5vh;
+    top: -37.5vh;
     z-index: 0;
     animation-name: bounce;
     animation-timing-function: ease-out;
@@ -36,9 +36,9 @@
 }
 
 .navBar li {
-    font-size: 4.5vh;
+    font-size: 3.5vh;
     list-style-type: none;
-    padding: 0.75vh 53vh 0.75vh 0;
+    padding: 0.75vh 40vh 0.75vh 0;
 }
 
 .navBar li:hover {
